@@ -283,6 +283,11 @@ namespace laba1
                             num--;
                         }
 
+                        if (ctrlnum == "X")
+                        {
+                            ctrlnum = "10";
+                        }
+
 
                         if ((11 - res % 11).ToString() == ctrlnum)
                         {
